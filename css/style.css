@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F3525A;
+    --primary: #FFC107;
     --secondary: #F6F6F6;
     --light: #FFFFFF;
     --dark: #152440;
@@ -85,7 +85,7 @@ h6,
     height: 100%;
     top: 0;
     left: -17px;
-    background: var(--primary);
+    background: var(--primary); /* uses updated --primary color */
     transform: skew(40deg);
 }
 
